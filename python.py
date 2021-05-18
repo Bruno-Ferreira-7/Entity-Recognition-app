@@ -1,4 +1,5 @@
 import spacy_streamlit
+import spacy
 import streamlit as st
 import pandas as pd
 from spacy_transformers import Transformer
@@ -6,7 +7,9 @@ from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 
 DEFAULT_TEXT = ""
 
-spacy.load('en_core_web_trf')
+def load_model(name: str) -> spacy.language.Language:
+    return spacy.load(name)
+
 spacy_model = "en_core_web_trf"
 
 st.title("Identifyer")
