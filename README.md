@@ -1,2 +1,0 @@
-# app
-nlp simple app
