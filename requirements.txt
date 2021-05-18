@@ -1,7 +1,6 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 streamlit==0.82.0
 spacy_streamlit==1.0.0
-spacy_transformers==1.0.2
 spacy==3.0.6
 pandas==1.2.4
 torch==1.8.1+cpu 
