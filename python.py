@@ -7,9 +7,6 @@ from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 
 DEFAULT_TEXT = ""
 
-def load_model(name: str) -> spacy.language.Language:
-    return spacy.load(name)
-
 spacy_model = "en_core_web_trf"
 
 st.title("Identifyer")
