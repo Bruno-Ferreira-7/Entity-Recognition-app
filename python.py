@@ -2,8 +2,6 @@
 import spacy_streamlit
 import streamlit as st
 import pandas as pd
-import en_core_web_trf
-nlp = en_core_web_trf.load()
 from spacy_transformers import Transformer
 from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 
