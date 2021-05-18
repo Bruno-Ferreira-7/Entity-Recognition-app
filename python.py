@@ -1,5 +1,4 @@
 import spacy_streamlit
-import spacy
 import streamlit as st
 import pandas as pd
 from spacy_transformers import Transformer
