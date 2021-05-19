@@ -2,7 +2,6 @@
 import spacy_streamlit
 import spacy
 from spacy import displacy
-from spacy.lang.en import English
 import streamlit as st
 import pandas as pd
 from spacy_transformers import Transformer
@@ -10,8 +9,7 @@ from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 
 DEFAULT_TEXT = ""
 
-nlp=English()
-spacy_model = spacy.load("en_core_web_sm")
+spacy_model = "en_core_web_sm"
 
 st.title("Identifyer")
 text = st.text_area("Text to analyse", DEFAULT_TEXT, height=200)
