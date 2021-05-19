@@ -10,7 +10,7 @@ from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 DEFAULT_TEXT = ""
 
 nlp = spacy.load("en_core_web_trf")
-spacy_model = "en_core_web_trf"
+spacy_model = "en"
 
 st.title("Identifyer")
 text = st.text_area("Text to analyse", DEFAULT_TEXT, height=200)
