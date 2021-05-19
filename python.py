@@ -9,6 +9,7 @@ from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 
 DEFAULT_TEXT = ""
 
+nlp = spacy.load("en_core_web_sm")
 spacy_model = "en_core_web_sm"
 
 st.title("Identifyer")
