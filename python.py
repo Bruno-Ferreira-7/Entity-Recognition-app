@@ -9,8 +9,8 @@ from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 
 DEFAULT_TEXT = ""
 
-nlp = spacy.load("en")
-spacy_model = "en"
+nlp = spacy.load('/opt/anaconda3/envs/NLPENV/lib/python3.7/site-packages/en_core_web_sm/en_core_web_sm-2.3.1')
+spacy_model = "en_core_web_sm"
 
 st.title("Identifyer")
 text = st.text_area("Text to analyse", DEFAULT_TEXT, height=200)
