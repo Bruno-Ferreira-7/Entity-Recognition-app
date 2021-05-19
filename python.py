@@ -2,6 +2,7 @@
 import spacy_streamlit
 import spacy
 from spacy import displacy
+from spacy.lang.en import English
 import streamlit as st
 import pandas as pd
 from spacy_transformers import Transformer
@@ -9,7 +10,7 @@ from spacy_transformers.pipeline_component import DEFAULT_CONFIG
 
 DEFAULT_TEXT = ""
 
-nlp = spacy.load('/opt/anaconda3/envs/NLPENV/lib/python3.7/site-packages/en_core_web_sm/en_core_web_sm-2.3.1')
+nlp=English()
 spacy_model = "en_core_web_sm"
 
 st.title("Identifyer")
